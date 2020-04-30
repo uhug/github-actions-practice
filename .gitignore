@@ -1,8 +1,11 @@
 
 list
 
-./acmicpc-practice
-./acmicpc-practice/*
+acmicpc-practice
+acmicpc-practice/*
 
-./test
-./test/*
+test
+test/*
+
+_posts
+_posts/*

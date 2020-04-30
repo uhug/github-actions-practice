@@ -22,13 +22,20 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    # Runs a single command using the runners shell
-    # - name: Run a one-line script
-    #  run: echo Hello, world!
-
-    # Runs a set of commands using the runners shell
-    - name: Run a multi-line script
+    - name: Make post files into ./_post
       run: |
         git clone https://github.com/DokySp/acmicpc-practice.git
-        find ./acmicpc-practice | grep *.md > list
-        cat list
+        find ./acmicpc-practice | grep *.md > ./tools/list
+        node ./tools/makePost.js
+
+    - name: Commit files
+      run: |
+        git config --local user.email "uhug123@hanmail.net"
+        git config --local user.name "uhug"
+        git add .
+        git commit -m "Build posts into _post folder" -a
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
