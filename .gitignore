@@ -8,5 +8,7 @@ acmicpc-practice/*
 test
 test/*
 
+package-lock.json
+
 # _posts
 # _posts/*
