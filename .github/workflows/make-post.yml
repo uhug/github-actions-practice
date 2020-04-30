@@ -22,11 +22,17 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: Make post files into ./_post
+    - name: git clone & make list
       run: |
         git clone https://github.com/DokySp/acmicpc-practice.git
         find ./acmicpc-practice | grep *.md > ./tools/list
+
+    - name: node setting
+      run: |
         npm install rimraf -g
+
+    - name: run script
+      run: |
         node ./tools/makePost.js
 
     - name: Commit files
