@@ -40,7 +40,7 @@ jobs:
         git config --local user.email "uhug123@hanmail.net"
         git config --local user.name "uhug"
         git add .
-        git commit -m "CI:: Build posts into _post folder" -a
+        git commit -m "CI: Build posts into './_post' folder" -a
 
     - name: Push changes
       uses: ad-m/github-push-action@master

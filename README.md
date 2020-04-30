@@ -18,6 +18,12 @@ $ find ./acmicpc-practice | grep *.md > ./tools/list
 $ node ./tools/makePost.js
 ```
 
+### Try it!
+ - 사용 시,
+    1. `./tools/makePost.js` 파일에서 필요한 내용을 수정
+    2. `.github/workflows`, `tools`, `package.json` 세 개를 자산의 레포로 복붙
+    3. 클론할 레포 주소는 `.github/workflows/make-post.yml` 파일에서 주소를 수정
+
 ### 적용
  - [uhug.github.io](https://github.com/uhug/uhug.github.io)
 
