@@ -24,3 +24,4 @@ $ node ./tools/makePost.js
 ### 참고
  - [Github pages를 github actions로 자동 배포하기](https://ohseunghyeon.github.io/blogging/deploying-github-pages-with-github-actions/)
  - [GitHub Action - GitHub Push](https://github.com/marketplace/actions/github-push)
+ - [npm package.json에서 틸드(~) 대신 캐럿(^) 사용하기](https://blog.outsider.ne.kr/1041)
