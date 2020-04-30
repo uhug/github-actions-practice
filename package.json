@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/uhug/acmicpc-wiki/issues"
   },
-  "homepage": "https://github.com/uhug/acmicpc-wiki#readme"
+  "homepage": "https://github.com/uhug/acmicpc-wiki#readme",
+  "dependencies": {
+    "rimraf": "^3.0.2"
+  }
 }
