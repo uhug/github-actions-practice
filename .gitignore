@@ -7,5 +7,5 @@ acmicpc-practice/*
 test
 test/*
 
-_posts
-_posts/*
+# _posts
+# _posts/*
