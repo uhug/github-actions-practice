@@ -20,4 +20,7 @@ $ node ./tools/makePost.js
 
 ### 적용
  - [uhug.github.io](https://github.com/uhug/uhug.github.io)
- 
+
+### 참고
+ - [Github pages를 github actions로 자동 배포하기](https://ohseunghyeon.github.io/blogging/deploying-github-pages-with-github-actions/)
+ - [GitHub Action - GitHub Push](https://github.com/marketplace/actions/github-push)
