@@ -26,6 +26,7 @@ jobs:
       run: |
         git clone https://github.com/DokySp/acmicpc-practice.git
         find ./acmicpc-practice | grep *.md > ./tools/list
+        npm install rimraf -g
         node ./tools/makePost.js
 
     - name: Commit files
