@@ -1,6 +1,8 @@
 # CI-Practice
 ![CI](https://github.com/uhug/acmicpc-wiki/workflows/CI/badge.svg)
 
+[공식 문서](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions)
+
 본 레포에서
  1. 특정 레포를 클론한 후에
  2. 필요한 정보를 추출하여 현재 레포에 정보를 추가하고
