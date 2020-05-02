@@ -35,6 +35,9 @@ $ node ./tools/makePost.js
  - [Telegram Notify]()를 사용하여 제작
  - secrets 값은 레포의 설정에서 설정 가능하며, Telegram Notify에 쓰이는 TOKEN, TO는 [이 글](https://gabrielkim.tistory.com/entry/Telegram-Bot-Token-%EB%B0%8F-Chat-Id-%EC%96%BB%EA%B8%B0)을 참고하면 확인 가능!
 
+### 쉘 명령어 안에 명령어 출력 표시하기
+ - \`\`를 사용
+ - <pre> ex> $ echo `date +%Y.%m.%d-%H:%M:%S` </pre>
 
 #### 참고
  - [Github Action을 활용한 프로젝트 (코로나알리미)](https://blog.naver.com/pjt3591oo/221841602490)
