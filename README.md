@@ -45,3 +45,4 @@ $ node ./tools/makePost.js
  - [GitHub Action - GitHub Push](https://github.com/marketplace/actions/github-push)
  - [npm package.json에서 틸드(~) 대신 캐럿(^) 사용하기](https://blog.outsider.ne.kr/1041)
  - [Jekyll Liquid Syntax 사용법](https://gloriajun.github.io/etc/2017/04/11/github-blog-liquid-syntax.html)
+ - [Skip based on commit message](https://github.com/marketplace/actions/skip-based-on-commit-message)
