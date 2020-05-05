@@ -30,7 +30,7 @@ jobs:
     - name: git clone & make list
       run: |
         git clone https://github.com/DokySp/acmicpc-practice.git
-        find ./acmicpc-practice | grep *.md > ./tools/list
+        find ./acmicpc-practice | grep .md > ./tools/list
 
     - name: node setting
       run: |
