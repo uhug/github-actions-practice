@@ -17,7 +17,7 @@ CI 툴에서 크게 아래와 같은 작업을 진행.
 ```shell
 $ git clone https://github.com/DokySp/acmicpc-practice.git
 
-$ find ./acmicpc-practice | grep *.md > ./tools/list
+$ find ./acmicpc-practice | grep .md > ./tools/list
 
 $ node ./tools/makePost.js
 ```
